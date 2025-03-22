@@ -16,6 +16,10 @@ const nextConfig = {
       },
       {
         protocol: 'https',
+        hostname: 'img.notionusercontent.com',
+      },
+      {
+        protocol: 'https',
         hostname: '**', // Wildcard to allow all domains
       },
       {
