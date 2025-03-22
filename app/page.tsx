@@ -22,11 +22,8 @@ export default function Home() {
       </div>
       <ContentSection
         title="Our Diversity"
-        content="The structure of our program enables us to span over all states of India, bringing vibrancies of culture and flexibility of reach within us. Our fraternity of 1040+ students is spread across 26 nodes across the country with 20-50 students at each node.
-
-Clubs and societies of the house are spread across the student groups, so while some claim it, we are actually crossing boundaries of reach quite literally! 
-
-Along with 24 Nodes in India, we also have 2 more nodes based in UAE who also take an active part in the various activities that are conducted in the House."
+        content="Our program continues to expand, now encompassing over 4000 students across 10 regions, including an International Region. Each region is overseen by a Regional Coordinator, ensuring seamless coordination and engagement.
+With this evolution, our fraternity has grown stronger, fostering a diverse and interconnected community. The clubs and societies within the House remain integral to student groups, truly crossing geographical and cultural boundaries. While others may claim outreach, we embody it—spanning across the nation and beyond with an inclusive and dynamic presence.The International Region actively hosts meetups and activities, further strengthening our global connections and fostering a vibrant exchange of ideas."
         imageUrl="https://i.pinimg.com/736x/e1/fa/18/e1fa18ac9c03c5d76c6eda658b4a749a.jpg"
         reverse={true}
       />
