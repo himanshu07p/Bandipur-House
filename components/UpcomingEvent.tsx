@@ -9,7 +9,7 @@ const upcomingEvents = [
     id: 3,
     title: "Transforming Development with AI: Full-Stack Development Workshop",
     date: "March 30, 2025",
-    location: "IIT Madras, Chennai",
+    location: "Online",
     image: "https://img.notionusercontent.com/s3/prod-files-secure%2F176cd4ee-c4d3-4bc4-9afc-292b9d52cac2%2F411e08ef-d69e-4044-a495-4a533d0f00bf%2FWhatsApp_Image_2025-03-22_at_15.23.11.jpeg/size/w=2000?exp=1742656685&sig=V-Cu7aVutZWfsBlSEBskMPBAbfFclPyNlAOSpV-vAsE",
   },
   {
@@ -49,7 +49,7 @@ export default function UpcomingEvents() {
               transition={{ duration: 0.5 }}
               className="bg-gray-800 rounded-lg overflow-hidden shadow-lg flex flex-col"
             >
-              <div className="relative h-48">
+              <div className="relative h-72">
                 <Image
                   src={event.image || "/placeholder.svg"}
                   alt={event.title}
