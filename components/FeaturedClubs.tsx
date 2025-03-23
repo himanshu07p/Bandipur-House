@@ -9,28 +9,28 @@ const featuredClubs = [
     name: "Chess Club",
     description: "Engage in thought-provoking discussions and improve your public speaking skills.",
     members: 85,
-    image: "https://img.notionusercontent.com/s3/prod-files-secure%2F176cd4ee-c4d3-4bc4-9afc-292b9d52cac2%2F3f6cf462-5f93-416b-a928-d5d6fe71461d%2F2.jpg/size/w=2000?exp=1742655104&sig=43iTOVu_AzBjZcKx247wInXXNeMDqfShCPfoz3GtBTM",
+    image: "https://i.ibb.co/FLNM10NB/2.jpg",
   },
   {
     id: 3,
     name: "Eureka Club",
     description: "Learn, code, and build amazing projects with like-minded tech enthusiasts.",
     members: 150,
-    image: "https://img.notionusercontent.com/s3/prod-files-secure%2F176cd4ee-c4d3-4bc4-9afc-292b9d52cac2%2Fd8b2dd14-8936-40b2-b9e7-830c712a9fb1%2FEureka.png/size/w=2000?exp=1742655797&sig=doLkINAHQxXLWfjAZH5Pb3jgGEdgAbT2yV49norACvI",
+    image: "https://i.ibb.co/ksSZnZWK/Eureka.png",
   },
   {
     id: 5,
     name: "Igniters CP Club",
     description: "Learn, code, and build amazing projects with like-minded tech enthusiasts.",
     members: 150,
-    image: "https://img.notionusercontent.com/s3/prod-files-secure%2F176cd4ee-c4d3-4bc4-9afc-292b9d52cac2%2F883f0595-60b1-4c6b-9964-172d678f077b%2Figniters.png/size/w=2000?exp=1742655853&sig=LplUdvyK1gNJgfPKVKPyOj9o-lYBHu6MhbnvLLNFFuQ",
+    image: "https://i.ibb.co/zTxY1S9j/igniters.png",
   },
   {
     id: 7,
     name: "Samvaah Club",
     description: "Learn, code, and build amazing projects with like-minded tech enthusiasts.",
     members: 150,
-    image: "https://img.notionusercontent.com/s3/prod-files-secure%2F176cd4ee-c4d3-4bc4-9afc-292b9d52cac2%2F498b1574-6228-4adb-b938-84b15d1bfda2%2F1.jpg/size/w=2000?exp=1742655542&sig=qQm6CiUY-igJX8uRwFVajG_ot7fU4otuQpKznfriel8",
+    image: "https://i.ibb.co/vC7NPQPx/1.jpg",
   },
 ]
 
