@@ -8,7 +8,7 @@ const pastEvents = [
     title: "Night of noobs",
     date: "Februery 24, 2025",
     location: "Online",
-    image: "https://img.notionusercontent.com/s3/prod-files-secure%2F176cd4ee-c4d3-4bc4-9afc-292b9d52cac2%2F8d6cb91b-1974-4b4b-a90a-25a40c65b61b%2FNight-of-noobs.jpg/size/w=2000?exp=1741883078&sig=CsJ3Gh_TWyquCp6xCvhzu_KYaTz9-XmkG7g5-whfszk",
+    image: "https://i.ibb.co/zTxY1S9j/igniters.png",
   },
   {
     id: 9,
