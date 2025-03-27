@@ -97,7 +97,7 @@ const Footer = () => {
               </motion.div>
               <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.9 }}>
                 <Link
-                  href="https://wa.me/your-whatsapp-number"
+                  href="https://whatsapp.com/channel/0029Vb3SNqU4dTnR1GXVcM3Q"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-blue-400 transition-colors duration-300"
