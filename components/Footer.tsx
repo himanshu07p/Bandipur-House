@@ -25,7 +25,7 @@ const Footer = () => {
   }
 
   return (
-    <footer className="bg-gray-900 text-white py-12">
+    <footer className="bg-gray-900 text-white py-12 relative z-50">
       <div className="container mx-auto px-4">
         <motion.div
           className="flex flex-wrap justify-between items-center"
