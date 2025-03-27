@@ -65,7 +65,11 @@ export default function TopCouncil() {
               </motion.div>
               <h3 className="text-2xl font-semibold text-white mb-1">{member.name}</h3>
               {member.email ? (
-                <p className="text-gray-300 mb-2 text-sm">{member.email}</p>
+                <p className="text-gray-300 mb-2 text-sm">
+                  <a href={`mailto:${member.email}`} className="hover:text-blue-400 transition-colors">
+                    {member.email}
+                  </a>
+                </p>
               ) : (
                 <p className="text-yellow-500 mb-2 text-sm italic">Email not available</p>
               )}
