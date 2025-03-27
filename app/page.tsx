@@ -6,7 +6,7 @@ import ScrollToTopButton from "@/components/ScrollToTopButton"
 import { ParallaxProvider } from "react-scroll-parallax"
 import Footer from "@/components/Footer"
 import { motion, useScroll, useTransform } from "framer-motion"
-import { useRef } from "react"
+import { useRef, useState, useEffect } from "react"
 
 export default function Home() {
   const containerRef = useRef(null);
@@ -19,6 +19,25 @@ export default function Home() {
   const rotateBackground = useTransform(scrollYProgress, [0, 1], [0, 15]);
   const moveUpElements = useTransform(scrollYProgress, [0, 1], [0, -150]);
   const scaleHeroElements = useTransform(scrollYProgress, [0, 0.3], [1, 0.8]);
+  
+  // Add state for screen width to handle window object safely
+  const [screenWidth, setScreenWidth] = useState(1000); // Default fallback value
+
+  // Set up window width detection on the client side only
+  useEffect(() => {
+    const handleResize = () => {
+      setScreenWidth(window.innerWidth);
+    };
+    
+    // Initial value
+    setScreenWidth(window.innerWidth);
+    
+    // Add event listener
+    window.addEventListener('resize', handleResize);
+    
+    // Clean up
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   return (
     <ParallaxProvider>
@@ -164,7 +183,7 @@ export default function Home() {
                 WebkitMaskImage: "linear-gradient(to bottom, transparent, black)"
               }}
               animate={{
-                x: [0, -window.innerWidth, 0],
+                x: [0, -screenWidth, 0], // Use the state variable instead of direct window access
               }}
               transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
             />

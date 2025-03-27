@@ -33,4 +33,3 @@ const CircularText: React.FC = () => {
 }
 
 export default CircularText
-
