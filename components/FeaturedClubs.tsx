@@ -5,32 +5,32 @@ import Link from "next/link"
 
 const featuredClubs = [
   {
-    id: 2,
+    id: 1,
     name: "Chess Club",
     description: "Engage in thought-provoking discussions and improve your public speaking skills.",
     members: 85,
-    image: "https://i.ibb.co/FLNM10NB/2.jpg",
+    image: "https://dfxufezovqsrqrksreed.supabase.co/storage/v1/object/public/clubs//Chess_club.jpg",
   },
   {
-    id: 3,
+    id: 2,
     name: "Eureka Club",
     description: "Learn, code, and build amazing projects with like-minded tech enthusiasts.",
     members: 150,
-    image: "https://i.ibb.co/ksSZnZWK/Eureka.png",
+    image: "https://dfxufezovqsrqrksreed.supabase.co/storage/v1/object/public/clubs//Eureka.png",
   },
   {
-    id: 5,
+    id: 3,
     name: "Igniters CP Club",
     description: "Learn, code, and build amazing projects with like-minded tech enthusiasts.",
     members: 150,
-    image: "https://i.ibb.co/zTxY1S9j/igniters.png",
+    image: "https://dfxufezovqsrqrksreed.supabase.co/storage/v1/object/public/clubs//igniters.png",
   },
   {
-    id: 7,
+    id: 4,
     name: "Samvaah Club",
     description: "Learn, code, and build amazing projects with like-minded tech enthusiasts.",
     members: 150,
-    image: "https://i.ibb.co/vC7NPQPx/1.jpg",
+    image: "https://dfxufezovqsrqrksreed.supabase.co/storage/v1/object/public/clubs//samvaah.jpg",
   },
 ]
 
