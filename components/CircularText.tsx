@@ -18,7 +18,7 @@ const CircularText: React.FC = () => {
           </defs>
           <text fontSize="9">
             <textPath xlinkHref="#circle" className="fill-current">
-            • Bandipur House • Bandipur House • Bandipur House •
+           Bandipur House IITM BS  ••  Bandipur House IITM BS  ••  
             </textPath>
           </text>
         </svg>
