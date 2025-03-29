@@ -4,74 +4,102 @@ import Image from "next/image"
 
 const pastEvents = [
   {
-    id: 10,
-    title: "Night of noobs",
-    date: "Februery 24, 2025",
+    id: 14,
+    title: "Nagpur Meet-Up (Bandipur X Nilgiri X boundless)",
+    date: "March 23, 2025",
+    location: "Khindsi Lake, Ramtek",
+    image: "https://dfxufezovqsrqrksreed.supabase.co/storage/v1/object/public/events//nagpur-meetup.jpg",
+  },
+  {
+    id: 13,
+    title: "Night of noobs 2.0",
+    date: "March 23, 2025",
     location: "Online",
-    image: "https://i.ibb.co/zTxY1S9j/igniters.png",
+    image: "https://dfxufezovqsrqrksreed.supabase.co/storage/v1/object/public/events//Nightofnoobs2.jpeg",
+  },
+  {
+    id: 12,
+    title: "Movie Night",
+    date: "March 10, 2025",
+    location: "Online",
+    image: "https://dfxufezovqsrqrksreed.supabase.co/storage/v1/object/public/events//movie-night1.png",
+  },
+  {
+    id: 11,
+    title: "Startup Guidance Session",
+    date: "March 6, 2025",
+    location: "Online",
+    image: "https://dfxufezovqsrqrksreed.supabase.co/storage/v1/object/public/events//startup-guidence-session.jpeg",
+  },
+  {
+    id: 10,
+    title: "Dubai Meet-Up",
+    date: "February 2, 2025",
+    location: "Dubai",
+    image: "https://dfxufezovqsrqrksreed.supabase.co/storage/v1/object/public/events//dubai-meetup.jpeg",
   },
   {
     id: 9,
     title: "Bakkhali Meet-UP(Bandipur X Nature Nurture",
     date: "January 28, 2025",
     location: "Bakkhali",
-    image: "https://img.notionusercontent.com/s3/prod-files-secure%2F176cd4ee-c4d3-4bc4-9afc-292b9d52cac2%2F5f98d207-5230-4d94-95bc-a3bb45965b5a%2FWhatsApp_Image_2025-03-15_at_10.15.43_PM.jpeg/size/w=2000?exp=1742659328&sig=4-w_18f435tSa4PM1Q-Mt43vOvNiofGyyFpvaL8iWls",
+    image: "https://dfxufezovqsrqrksreed.supabase.co/storage/v1/object/public/events//bakkhali-meetup.jpg",
   },
   {
     id: 8,
     title: "Lucknow Meet-Up",
     date: "January 19, 2025",
     location: "Lucknow",
-    image: "https://img.notionusercontent.com/s3/prod-files-secure%2F176cd4ee-c4d3-4bc4-9afc-292b9d52cac2%2Fff6e2108-f46b-486c-8308-2c031b12752c%2FWhatsApp_Image_2025-03-15_at_10.15.42_PM_(1).jpeg/size/w=2000?exp=1742659382&sig=z-K14YR9KHyIB8Cypsy00aGHGzLqcRM7mkbRtDfZzN0",
+    image: "https://dfxufezovqsrqrksreed.supabase.co/storage/v1/object/public/events//lucknow-meetup.jpg",
   },
   {
     id: 7,
     title: "Chennai Meetup",
     date: "January 12, 2025",
     location: "Chennai",
-    image: "https://img.notionusercontent.com/s3/prod-files-secure%2F176cd4ee-c4d3-4bc4-9afc-292b9d52cac2%2F5a803753-12ad-4dfd-9611-68e360a44483%2FWhatsApp_Image_2025-03-15_at_10.10.41_PM_(2).jpeg/size/w=600?exp=1742659420&sig=yL-d9h7GOVnOXNcK9oKmCdKmP4c1arOh4RSkyt5oOc0",
+    image: "https://dfxufezovqsrqrksreed.supabase.co/storage/v1/object/public/events//chennai-meetup.jpeg",
   },
   {
     id: 6,
     title: "Guntur Meet-Up",
     date: "January 12, 5",
     location: "Guntur",
-    image: "https://img.notionusercontent.com/s3/prod-files-secure%2F176cd4ee-c4d3-4bc4-9afc-292b9d52cac2%2F9c909cf1-b004-43a1-af2f-085b0722da57%2FWhatsApp_Image_2025-03-22_at_17.45.37.jpeg/size/w=2000?exp=1742659481&sig=TBpsUTyFtAZIJGXLKz5PUbN_yB-nbEi6xLthibQedTc",
+    image: "https://dfxufezovqsrqrksreed.supabase.co/storage/v1/object/public/events//Guntur-meetup.jpeg",
   },
   {
     id: 5,
     title: "Varnasi Meet-Up",
     date: "January 12, 2025",
     location: "Varanasi",
-    image: "https://img.notionusercontent.com/s3/prod-files-secure%2F176cd4ee-c4d3-4bc4-9afc-292b9d52cac2%2Fd6aebf8a-add3-47fc-abb7-b9ca6ac01964%2FWhatsApp_Image_2025-03-22_at_17.45.37_(1).jpeg/size/w=2000?exp=1742659505&sig=VC4znNFQoxJRvpNURRThMsKSk-ZJ4-2zRL1lOSb2oSU",
+    image: "https://dfxufezovqsrqrksreed.supabase.co/storage/v1/object/public/events//Varanasi-meetup.jpeg",
   },
   {
     id: 4,
     title: "Crack The Code",
     date: "December 29, 2024",
     location: "Online",
-    image: "https://img.notionusercontent.com/s3/prod-files-secure%2F176cd4ee-c4d3-4bc4-9afc-292b9d52cac2%2Fabd684f0-96ba-4936-97a2-b038043ed291%2FWhatsApp_Image_2025-03-22_at_17.42.49.jpeg/size/w=2000?exp=1742659673&sig=DwynB7q-q5w0kAJSWW8n4wRxEV2WwhGlmULF_do_uJ0",
+    image: "https://dfxufezovqsrqrksreed.supabase.co/storage/v1/object/public/events//CTC1.jpeg",
   },
   {
     id: 3,
     title: "Bandipur House Orientation",
     date: "November 10, 2024",
     location: "Online",
-    image: "https://img.notionusercontent.com/s3/prod-files-secure%2F176cd4ee-c4d3-4bc4-9afc-292b9d52cac2%2F573fad00-c24a-4cfe-966d-3ae3a9d337bb%2FWhatsApp_Image_2025-03-15_at_10.10.41_PM.jpeg/size/w=600?exp=1742659572&sig=OZAMF9a16e_CY0SdCi3drIErikNy2FWRD7eWtX04YlQ",
+    image: "https://dfxufezovqsrqrksreed.supabase.co/storage/v1/object/public/events//orientation10-10-24.jpg",
   },
   {
     id: 2,
     title: "Howrah Meet-Up (Bandipur x Nilgiri)",
     date: "November 2, 2024",
     location: "Howrah",
-    image: "https://img.notionusercontent.com/s3/prod-files-secure%2F176cd4ee-c4d3-4bc4-9afc-292b9d52cac2%2Fce141a1c-90fd-4c8d-9831-e95239e4b7c3%2FHowrah_Meetup_Poster(1)_(1).png/size/w=2000?exp=1742656193&sig=m6E7qMiIZyxFrLH5-3aJ4jigOWh5Muztpg2a7awD-PE",
+    image: "https://dfxufezovqsrqrksreed.supabase.co/storage/v1/object/public/events//Howrah_Meetup.png",
   },
   {
     id: 1,
     title: "Delhi Meet-Up",
     date: "October 19, 2024",
     location: "Delhi",
-    image: "https://img.notionusercontent.com/s3/prod-files-secure%2F176cd4ee-c4d3-4bc4-9afc-292b9d52cac2%2F1e7b4a76-e1f2-42bf-b83c-c857156d2675%2FWhatsApp_Image_2025-03-15_at_10.10.40_PM.jpeg/size/w=2000?exp=1742655962&sig=rlcxXTE6OWLKbnnyJO7BqWzh1OlPMPPNLALJvFC4p6s",
+    image: "https://dfxufezovqsrqrksreed.supabase.co/storage/v1/object/public/events//delhi-meetup.jpg",
   },
 
 ]
@@ -102,13 +130,13 @@ export default function PastEvents() {
               transition={{ duration: 0.5 }}
               className="bg-gray-800 rounded-lg overflow-hidden shadow-lg min-w-[300px]"
             >
-              <div className="relative h-[375px]">
+              <div className="relative w-full h-[300px]">
                 <Image
                   src={event.image || "/placeholder.svg"}
                   alt={event.title}
-                  layout="fill"
-                  objectFit="cover"
-                  className="transition-transform duration-300 transform hover:scale-110 filter grayscale hover:grayscale-0"
+                  fill
+                  sizes="(max-width: 768px) 100vw, 300px"
+                  className="transition-transform duration-300 transform hover:scale-110 filter grayscale hover:grayscale-0 object-contain bg-gray-900"
                 />
               </div>
               <div className="p-4">

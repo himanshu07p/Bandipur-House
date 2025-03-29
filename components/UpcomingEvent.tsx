@@ -6,25 +6,25 @@ import Link from "next/link"
 const upcomingEvents = [
   
   {
-    id: 3,
+    id: 1,
     title: "Transforming Development with AI: Full-Stack Development Workshop",
     date: "March 30, 2025",
     location: "Online",
-    image: "https://img.notionusercontent.com/s3/prod-files-secure%2F176cd4ee-c4d3-4bc4-9afc-292b9d52cac2%2F411e08ef-d69e-4044-a495-4a533d0f00bf%2FWhatsApp_Image_2025-03-22_at_15.23.11.jpeg/size/w=2000?exp=1742656685&sig=V-Cu7aVutZWfsBlSEBskMPBAbfFclPyNlAOSpV-vAsE",
+    image: "https://dfxufezovqsrqrksreed.supabase.co/storage/v1/object/public/events//TDAI-workshop.jpeg",
   },
   {
-    id: 4,
-    title: "Night of Noob 2.0",
-    date: "March 23, 2025",
+    id: 2,
+    title: "Upcoming Event ",
+    date: "Stay Tuned",
     location: "Online",
-    image: "https://img.notionusercontent.com/s3/prod-files-secure%2F176cd4ee-c4d3-4bc4-9afc-292b9d52cac2%2F5440cda1-30c1-46c3-a8e4-166a342226ab%2FWhatsApp_Image_2025-03-22_at_17.56.51.jpeg/size/w=2000?exp=1742656970&sig=okc0VccOCKHsnytPTp7mPs6dhCAREQFVNYxCrnC2tBU",
+    image: "https://dfxufezovqsrqrksreed.supabase.co/storage/v1/object/public/events//upevent.jpg",
   },
   {
-    id: 5,
-    title: "Nagpur Meetup",
-    date: "March 23, 2025",
-    location: "Khindsi Lake, Ramtek",
-    image: "https://img.notionusercontent.com/s3/prod-files-secure%2F176cd4ee-c4d3-4bc4-9afc-292b9d52cac2%2F5786af23-9d07-48d8-8f8e-c78956195a8d%2FIMG_5463.jpg/size/w=2000?exp=1742656933&sig=8oMOuadTB1_BU8gZJ3Er1-aE9YfpS75Bg2_KxtSrCSc",
+    id: 3,
+    title: "Upcoming Event",
+    date: "Stay Tuned",
+    location: "Online",
+    image: "https://dfxufezovqsrqrksreed.supabase.co/storage/v1/object/public/events//upevent.jpg",
   },
 ]
 
@@ -49,12 +49,16 @@ export default function UpcomingEvents() {
               transition={{ duration: 0.5 }}
               className="bg-gray-800 rounded-lg overflow-hidden shadow-lg flex flex-col"
             >
-              <div className="relative h-72">
+              <div className="relative w-full pt-[133%]">
                 <Image
                   src={event.image || "/placeholder.svg"}
                   alt={event.title}
-                  layout="fill"
-                  objectFit="cover"
+                  fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  style={{
+                    objectFit: "cover",
+                    objectPosition: "center",
+                  }}
                   className="transition-transform duration-300 transform hover:scale-110"
                 />
               </div>

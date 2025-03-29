@@ -34,6 +34,12 @@ const teamMembers = [
     image: "/assets/Victor_adhikari -web_developer.jpg",
     tagline: "Creating seamless user experiences through innovative front-end development."
   },
+  { 
+    name: "Himanshu Patel", 
+    role: "Web Developer and Technical Support", 
+    image: "/assets/Himanshu_web-dev.jpg",
+    tagline: "Bridging technical expertise with support solutions to ensure smooth web operations."
+  },
 ];
 
 // Container variants for staggered animations
