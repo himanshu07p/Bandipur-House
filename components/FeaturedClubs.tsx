@@ -7,30 +7,30 @@ const featuredClubs = [
   {
     id: 1,
     name: "Chess Club",
-    description: "Engage in thought-provoking discussions and improve your public speaking skills.",
-    members: 85,
+    description: "Develop strategic thinking and problem-solving skills through the timeless game of chess with fellow enthusiasts.",
     image: "https://dfxufezovqsrqrksreed.supabase.co/storage/v1/object/public/clubs//Chess_club.jpg",
+    link: "/clubs/chess-club"
   },
   {
     id: 2,
     name: "Eureka Club",
-    description: "Learn, code, and build amazing projects with like-minded tech enthusiasts.",
-    members: 150,
+    description: "Foster entrepreneurship skills and innovative thinking through collaborative projects and mentorship.",
     image: "https://dfxufezovqsrqrksreed.supabase.co/storage/v1/object/public/clubs//Eureka.png",
+    link: "https://eurekaiitm.vercel.app/"
   },
   {
     id: 3,
     name: "Igniters CP Club",
-    description: "Learn, code, and build amazing projects with like-minded tech enthusiasts.",
-    members: 150,
+    description: "Enhance algorithmic thinking and coding skills through competitive programming challenges and workshops.",
     image: "https://dfxufezovqsrqrksreed.supabase.co/storage/v1/object/public/clubs//igniters.png",
+    link: "/clubs/igniters-cp-club"
   },
   {
     id: 4,
     name: "Samvaah Club",
-    description: "Learn, code, and build amazing projects with like-minded tech enthusiasts.",
-    members: 150,
+    description: "Express creativity through literature, poetry, and storytelling in a supportive community of fellow writers.",
     image: "https://dfxufezovqsrqrksreed.supabase.co/storage/v1/object/public/clubs//samvaah.jpg",
+    link: "https://sites.google.com/ds.study.iitm.ac.in/samvaah"
   },
 ]
 
@@ -71,7 +71,7 @@ export default function FeaturedClubs() {
                 <p className="text-gray-400 mb-4">{club.description}</p>
               </div>
               <div className="px-6 pb-4">
-                <Link href={`/club/${club.id}`} passHref>
+                <Link href={club.link} passHref>
                   <button className="w-full bg-white text-black py-2 rounded-full font-semibold hover:bg-gray-200 transition duration-300">
                     Learn More
                   </button>
