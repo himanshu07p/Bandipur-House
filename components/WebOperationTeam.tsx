@@ -17,12 +17,6 @@ const teamMembers = [
     tagline: "Crafting engaging stories and building vibrant online communities across platforms."
   },
   { 
-    name: "Srilekha Dendukuri", 
-    role: "Content Writer", 
-    image: "/assets/Srilekha Dendukuri.jpg",
-    tagline: "Weaving words that inspire, inform, and create meaningful connections with our audience."
-  },
-  { 
     name: "Titiksha Agarwal", 
     role: "Research & Content Lead", 
     image: "/assets/Titiksha Agarwal- Research & content lead.jpg",
