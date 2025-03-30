@@ -62,7 +62,7 @@ const pastEvents = [
   {
     id: 6,
     title: "Guntur Meet-Up",
-    date: "January 12, 5",
+    date: "January 12, 2025",
     location: "Guntur",
     image: "https://dfxufezovqsrqrksreed.supabase.co/storage/v1/object/public/events//Guntur-meetup.jpeg",
   },
