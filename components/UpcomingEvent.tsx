@@ -4,13 +4,12 @@ import Image from "next/image"
 import Link from "next/link"
 
 const upcomingEvents = [
-  
   {
     id: 1,
-    title: "Transforming Development with AI: Full-Stack Development Workshop",
-    date: "March 30, 2025",
+    title: "Upcoming Event",
+    date: "Stay Tuned",
     location: "Online",
-    image: "https://dfxufezovqsrqrksreed.supabase.co/storage/v1/object/public/events//TDAI-workshop.jpeg",
+    image: "https://dfxufezovqsrqrksreed.supabase.co/storage/v1/object/public/events//upevent.jpg",
   },
   {
     id: 2,
