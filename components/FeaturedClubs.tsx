@@ -9,7 +9,7 @@ const featuredClubs = [
     name: "Chess Club",
     description: "Develop strategic thinking and problem-solving skills through the timeless game of chess with fellow enthusiasts.",
     image: "https://dfxufezovqsrqrksreed.supabase.co/storage/v1/object/public/clubs//Chess_club.jpg",
-    link: "/clubs/chess-club"
+    link: "https://docs.google.com/document/d/1WNk_WvnFhDa7pq7xLay58IcuZIllUtpYY-NKvmpbZNM/edit?usp=sharing"
   },
   {
     id: 2,
@@ -23,7 +23,7 @@ const featuredClubs = [
     name: "Igniters CP Club",
     description: "Enhance algorithmic thinking and coding skills through competitive programming challenges and workshops.",
     image: "https://dfxufezovqsrqrksreed.supabase.co/storage/v1/object/public/clubs//igniters.png",
-    link: "/clubs/igniters-cp-club"
+    link: "https://www.canva.com/design/DAGjIKNPokI/xERy2EEAHMTQLaDWmGMlpw/view?utm_content=DAGjIKNPokI&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h070e527122"
   },
   {
     id: 4,
@@ -71,7 +71,7 @@ export default function FeaturedClubs() {
                 <p className="text-gray-400 mb-4">{club.description}</p>
               </div>
               <div className="px-6 pb-4">
-                <Link href={club.link} passHref>
+                <Link href={club.link} target="_blank" rel="noopener noreferrer" passHref>
                   <button className="w-full bg-white text-black py-2 rounded-full font-semibold hover:bg-gray-200 transition duration-300">
                     Learn More
                   </button>
