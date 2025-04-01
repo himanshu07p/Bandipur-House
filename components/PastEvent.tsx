@@ -4,6 +4,13 @@ import Image from "next/image"
 
 const pastEvents = [
   {
+    id: 15,
+    title: "Transforming Development with AI: Full-Stack Development Workshop",
+    date: "March 30, 2025",
+    location: "Online",
+    image: "https://dfxufezovqsrqrksreed.supabase.co/storage/v1/object/public/events//TDAI-workshop.jpeg",
+  },
+  {
     id: 14,
     title: "Nagpur Meet-Up (Bandipur X Nilgiri X boundless)",
     date: "March 23, 2025",
