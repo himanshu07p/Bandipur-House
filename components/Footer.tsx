@@ -116,8 +116,7 @@ const Footer = () => {
           whileInView="visible"
           viewport={{ once: true }}
         >
-          <p className="text-gray-400">Website developed by Victor Adhikary 
-            24f3002659@ds.study.iitm.ac.in</p>
+          <p className="text-gray-400">© {new Date().getFullYear()} Bandipur House, IIT Madras. All rights reserved.</p>
         </motion.div>
       </div>
     </footer>
